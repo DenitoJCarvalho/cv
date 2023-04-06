@@ -1,0 +1,53 @@
+:root {
+  --orange: #FF8400;
+  --salmon: #FFA559;
+  --graphite: #454545;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6:not(.orange, .sa .salmon, .graphite) {
+  color: var(--graphite) !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--orange);
+}
+
+a:visited {
+  color: var(--salmon);
+}
+
+.orange {
+  color: var(--orange)
+}
+
+.salmon {
+  color: var(--salmon);
+}
+
+.graphite {
+  color: var(--graphite);
+}
